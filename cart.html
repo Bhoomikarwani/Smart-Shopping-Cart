@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <navbar>
+        <div class="head">
+            <img src="./assets/logo.png" class="logo">
+            <h1 class="heading">Smart Shopping Cart</h1>
+            <div class="icons">
+              <a href="index.html" id="home"><button>Back to Shop</button></a>
+              <p class="icon" id="you">👤</p>
+            </div>
+        </div>
+    </navbar>
+
+    <div class="cart-container">
+         <h1>Your Shopping Cart</h1>
+         <div id="cart-items">
+             
+         </div>
+         <div id="cart-summary">
+            <p>Total Items : <span id="total-count"></span></p>
+            <p>Subtotal : $<span>0.00</span></p>
+            <p id="discount">No discount applied yet</p>
+            <p>Final Total: $<span id="final-total">0.00</span></p>
+         </div>
+    </div>
+ <script src="./script.js"></script>
+</body>
+</html>    

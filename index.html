@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <navbar>
+        <div class="head">
+            <img src="./assets/logo.png" class="logo">
+            <h1 class="heading">Smart Shopping Cart</h1>
+            <div class="icons">
+              <a href="cart.html" id="cart">🛒</a>
+              <p class="icon" id="you">👤</p>
+            </div>
+        </div>
+    </navbar>
+
+    <mainsection id="main-area">
+        <div class="products">
+            <div class="items">
+                <img src="./assets/airFryer.png" class="img">
+                <p><b>Name</b> : Air Fryer</p>
+                <p><b>Price : </b><span class="price">$31.67</span> </p>
+                <button data-name="Air-Fryer" class="addtocart">Add to Cart 🛒</button>
+            </div>
+            <div class="items">
+                <img src="./assets/oven.png" class="img">
+                <div class="space">
+                    <p><b>Name :</b>Microwave oven</p>
+                    <p><b>Price : </b><span class="price">$37.2</span> </p>
+                </div>    
+                    <button data-name="oven" class="addtocart">Add to Cart 🛒</button>
+            </div>
+            <div class="items">
+                <img src="./assets/frother.png" class="img">
+                <p><b>Name :</b> Coffee Frother</p>
+                <p><b>Price : </b><span class="price">$3.37</span> </p>
+                <button data-name="frother" class="addtocart">Add to Cart 🛒</button>
+            </div>
+            <div class="items">
+                <img src="./assets/download.png" class="img">
+                <p><b>Name :</b> Electric Kettle</p>
+                <p><b>Price : </b><span class="price">$7.14</span> </p>
+                <button data-name="kettle" class="addtocart">Add to Cart 🛒</button>
+            </div>
+        </div>
+    </mainsection>    
+    <script src="./script.js"></script>
+</body>
+</html>
